@@ -78,6 +78,11 @@
         </dependency>
         <dependency>
             <groupId>com.google.elemental2</groupId>
+            <artifactId>elemental2-core</artifactId>
+            <version>1.0.0-RC1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.elemental2</groupId>
             <artifactId>elemental2-dom</artifactId>
             <version>1.0.0-RC1</version>
         </dependency>
@@ -87,6 +92,11 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
+        <!--<dependency>
+            <groupId>org.treblereel</groupId>
+            <artifactId>gwt-three</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>-->
     </dependencies>
 
 </project>

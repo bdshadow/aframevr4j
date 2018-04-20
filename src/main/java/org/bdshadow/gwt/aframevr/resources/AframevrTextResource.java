@@ -9,12 +9,11 @@ import com.google.gwt.resources.client.TextResource;
  */
 public interface AframevrTextResource extends ClientBundle {
 
-    AframevrTextResource IMPL = GWT.create(AframevrTextResource.class);
+  AframevrTextResource IMPL = GWT.create(AframevrTextResource.class);
 
+  @Source("js/aframe.js")
+  TextResource getAframevrJs();
 
-    @Source("js/aframevr.js")
-    TextResource getAframevrJs();
-
-    @Source("js/aframevr-ar.min.js")
-    TextResource getAframevrJsSMin();
+  @Source("js/aframe.min.js")
+  TextResource getAframevrJsSMin();
 }
